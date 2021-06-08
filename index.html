@@ -17,8 +17,10 @@
   </style>
 </head>
 <body>
-  <div class="flex items-center justify-center h-screen bg-blue-400">
-    <div class="bg-white shadow-lg rounded-2xl">
+  <div class="relative flex items-center justify-center h-screen overflow-hidden bg-dark-cyan ">
+    <img class="absolute transform -translate-x-1/2 -translate-y-2/3 lg:-translate-x-1/2 lg:-translate-y-1/3" src="./images/bg-pattern-top.svg" alt="Top Pattern">
+    <img class="absolute transform translate-x-1/2 translate-y-3/4 lg:translate-x-1/2 lg:translate-y-1/2 " src="./images/bg-pattern-bottom.svg" alt="Top Pattern">
+    <div class="z-10 mx-6 bg-white shadow-lg lg:mx-0 rounded-2xl">
       <div class="relative">
         <img src="./images/bg-pattern-card.svg" class="rounded-t-xl" alt="Card Pattern">
         <img class="absolute transform -translate-x-1/2 -translate-y-1/2 border-4 border-white rounded-full left-1/2" src="./images/image-victor.jpg" alt="Victor Image">
@@ -50,7 +52,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Ahmet AYYILDIZ</a>.
   </div>
   <script type="module" src="./main.js"></script>
 </body>
